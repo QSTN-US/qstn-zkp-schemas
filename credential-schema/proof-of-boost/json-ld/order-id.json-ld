@@ -1,0 +1,25 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "OrderIdClaim": {
+          "@id": "https://raw.githubusercontent.com/sekmet/0xPolygonID-tutorial-examples/main/credential-schema/proof-of-boost/json-ld/order-id.json-ld#OrderIdClaim",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://raw.githubusercontent.com/sekmet/0xPolygonID-tutorial-examples/main/credential-schema/proof-of-boost/proof-of-boost.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "orderId": {
+                "@id": "vocab:orderId",
+                "@type": "xsd:integer"
+              }
+          }
+        }
+      }
+    ]
+  }
