@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-work/json-ld/survey-id.json-ld",
-        "jsonSchema": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-work/json/survey-id.json"
+        "jsonLdContext": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-purchase/json-ld/product-id.json-ld",
+        "jsonSchema": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-purchase/json/product-id.json"
       }
     },
     "required": [
@@ -106,7 +106,7 @@
         "type": "object",
         "required": [
           "id",
-          "typeBoost"
+          "productId"
         ],
         "properties": {
           "id": {
@@ -114,7 +114,7 @@
             "type": "string",
             "format": "uri"
           },
-          "typeBoost": {
+          "productId": {
             "type": "integer"
           }
         }

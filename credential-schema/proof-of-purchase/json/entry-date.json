@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-boost/json-ld/entry-date.json-ld",
-        "jsonSchema": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-boost/json/entry-date.json"
+        "jsonLdContext": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-purchase/json-ld/entry-date.json-ld",
+        "jsonSchema": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-purchase/json/entry-date.json"
       }
     },
     "required": [

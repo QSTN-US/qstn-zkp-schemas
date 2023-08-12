@@ -6,7 +6,7 @@
         "id": "@id",
         "type": "@type",
         "ProductIdClaim": {
-          "@id": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-purchase/json-ld/type-purchase.json-ld#TypeBoostClaim",
+          "@id": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-purchase/json-ld/product-id.json-ld#ProductIdClaim",
           "@context": {
             "@version": 1.1,
             "@protected": true,

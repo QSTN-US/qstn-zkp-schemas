@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-boost/json-ld/proof-of-boost.json-ld",
-      "jsonSchema": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-boost/json/proof-of-boost.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-purchase/json-ld/proof-of-purchase.json-ld",
+      "jsonSchema": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-purchase/json/proof-of-purchase.json"
     }
   },
   "required": [
@@ -106,7 +106,7 @@
       "type": "object",
       "required": [
         "id",
-        "typeBoost",
+        "productId",
         "orderId",
         "profileId",
         "entryDate"
@@ -117,7 +117,7 @@
           "type": "string",
           "format": "uri"
         },
-        "typeBoost": {
+        "productId": {
           "type": "integer"
         },
         "orderId": {
