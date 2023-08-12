@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "ProofOfPurchaseClaim": {
+        "@id": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-purchase/json-ld/proof-of-purchase.json-ld#ProofOfPurchaseClaim",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-purchase/proof-of-purchase.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "entryDate": {
+            "@id": "vocab:entryDate",
+            "@type": "xsd:dateTime"
+          },
+          "productId": {
+            "@id": "vocab:productId",
+            "@type": "xsd:integer"
+          },
+          "orderId": {
+            "@id": "vocab:orderId",
+            "@type": "xsd:integer"
+          },
+          "profileId": {
+            "@id": "vocab:profileId",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "ProfileIdClaim": {
+          "@id": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-purchase/json-ld/profile-id.json-ld#ProfileIdClaim",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://raw.githubusercontent.com/QSTN-US/qstn-zkp-schemas/main/credential-schema/proof-of-purchase/proof-of-purchase.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "profileId": {
+                "@id": "vocab:profileId",
+                "@type": "xsd:integer"
+              }
+          }
+        }
+      }
+    ]
+  }
